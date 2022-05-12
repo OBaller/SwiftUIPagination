@@ -11,6 +11,9 @@
 		C517D648282C4EB200F30E42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517D647282C4EB200F30E42 /* ContentView.swift */; };
 		C517D64A282C4EB400F30E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C517D649282C4EB400F30E42 /* Assets.xcassets */; };
 		C517D64D282C4EB400F30E42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C517D64C282C4EB400F30E42 /* Preview Assets.xcassets */; };
+		C517D654282C509F00F30E42 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517D653282C509F00F30E42 /* Webservice.swift */; };
+		C517D656282C50AF00F30E42 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517D655282C50AF00F30E42 /* User.swift */; };
+		C517D659282C584A00F30E42 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517D658282C584A00F30E42 /* UserListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		C517D647282C4EB200F30E42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C517D649282C4EB400F30E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C517D64C282C4EB400F30E42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C517D653282C509F00F30E42 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		C517D655282C50AF00F30E42 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C517D657282C56CB00F30E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C517D658282C584A00F30E42 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		C517D644282C4EB200F30E42 /* Pagination */ = {
 			isa = PBXGroup;
 			children = (
+				C517D657282C56CB00F30E42 /* Info.plist */,
 				C517D645282C4EB200F30E42 /* PaginationApp.swift */,
 				C517D647282C4EB200F30E42 /* ContentView.swift */,
+				C517D653282C509F00F30E42 /* Webservice.swift */,
+				C517D655282C50AF00F30E42 /* User.swift */,
+				C517D658282C584A00F30E42 /* UserListViewModel.swift */,
 				C517D649282C4EB400F30E42 /* Assets.xcassets */,
 				C517D64B282C4EB400F30E42 /* Preview Content */,
 			);
@@ -137,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C517D656282C50AF00F30E42 /* User.swift in Sources */,
 				C517D648282C4EB200F30E42 /* ContentView.swift in Sources */,
 				C517D646282C4EB200F30E42 /* PaginationApp.swift in Sources */,
+				C517D654282C509F00F30E42 /* Webservice.swift in Sources */,
+				C517D659282C584A00F30E42 /* UserListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = ZPS3H473KB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pagination/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = ZPS3H473KB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pagination/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
